@@ -135,12 +135,12 @@ def save_sidebar():
                   generated_site_dir)
             return False
     try:
-        sidebar_file = open(os.path.join(generated_site_dir, "dist/_sidebar.md"), "w")
+        sidebar_file = open(os.path.join(generated_site_dir, "dist/sidebar.md"), "w")
         sidebar_file.write(generate_sidebar())
         sidebar_file.close()
         return True
     except IOError:
-        print("ERROR: Could not create _sidebar.md file in %s !\n" %
+        print("ERROR: Could not create sidebar.md file in %s !\n" %
               generated_site_dir)
         return False
 
