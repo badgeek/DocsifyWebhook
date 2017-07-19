@@ -1,3 +1,0 @@
-Coming soon...
-
-See "History of the Coconut" for a storyline of the developments that lead to this
