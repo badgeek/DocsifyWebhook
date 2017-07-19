@@ -58,7 +58,7 @@ if (!empty(TOKEN) && isset($_SERVER["HTTP_X_HUB_SIGNATURE"]) && $token !== hash_
 } else {
     // check if pushed branch matches branch specified in config
     if ($json["ref"] === BRANCH) {
-        fputs($file, $content . PHP_EOL);
+        fputs($file, $content . PHP_EOL . $json["ref"]);
 
         // ensure directory is a repository
         if (file_exists(DIR . ".git") && is_dir(DIR)) {
