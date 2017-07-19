@@ -135,7 +135,7 @@ def save_sidebar():
                   generated_site_dir)
             return False
     try:
-        sidebar_file = open(os.path.join(generated_site_dir, "_sidebar.md"), "w")
+        sidebar_file = open(os.path.join(generated_site_dir, "dist/_sidebar.md"), "w")
         sidebar_file.write(generate_sidebar())
         sidebar_file.close()
         return True
