@@ -101,8 +101,10 @@ def pull_wiki_repo():
 def generate_sidebar():
     path_list = []
 
+    list_dir = os.listdir(os.path.join(MKDOCS_DIR, WIKI_NAME))
+    list_dir.sort()
 
-    for file in os.listdir(os.path.join(MKDOCS_DIR, WIKI_NAME)):
+    for file in list_dir:
       
       if file.endswith(".md"):
 
@@ -117,7 +119,6 @@ def generate_sidebar():
           "Check if repository has been set up correctly.")
       return False
 
-    path_list.sort()
     
     pages_str = "" + "\n".join(path_list) + "\n"
     return pages_str
