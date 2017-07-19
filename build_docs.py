@@ -117,7 +117,7 @@ def generate_sidebar():
           "Check if repository has been set up correctly.")
       return False
 
-    pages_str = "" + "\n".join(path_list) + "\n"
+    pages_str = "" + "\n".join(sorted(path_list)) + "\n"
     return pages_str
 
 def save_sidebar():
