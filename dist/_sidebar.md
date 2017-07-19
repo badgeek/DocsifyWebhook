@@ -26,11 +26,11 @@
   - [4.7 MYOB   Make Your Own Board](4_7 MYOB---Make-Your-Own-Board.md)
 - 5 History of the Coconut:
   - [5 History of the Coconut](5 History of the Coconut.md)
-- .sidebar:
-  - [.sidebar](_sidebar.md)
 - Home:
   - [Home](Home.md)
 - README:
   - [README](README.md)
 - X Acknowledgements:
   - [X Acknowledgements](X Acknowledgements.md)
+- .sidebar:
+  - [.sidebar](_sidebar.md)
