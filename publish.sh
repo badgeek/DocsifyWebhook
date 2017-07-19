@@ -1,6 +1,6 @@
 export GIT_DEPLOY_DIR="dist"
 export GIT_DEPLOY_BRANCH="gh-pages"
-export GIT_DEPLOY_REPO="https://github.com/badgeek/DocsifyWebhook.git"
+export GIT_DEPLOY_REPO="git@github.com:badgeek/NeoWiki.git"
 
 rm -fr dist
 mkdir dist
