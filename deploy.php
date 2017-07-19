@@ -87,7 +87,7 @@ if (!empty(TOKEN) && isset($_SERVER["HTTP_X_HUB_SIGNATURE"]) && $token !== hash_
             fputs($file, "=== ERROR: DIR is not a repository ===" . "\n");
         }
     } else{
-        fputs($file, "=== ERROR: Pushed branch does not match BRANCH ===\n");
+        fputs($file, "=== ERROR: Pushed branch does not match BRANCH === \n" . $json["ref"]);
     }
 }
 
