@@ -46,7 +46,7 @@ GITHUB_USER = "8BitMixtape"
 WIKI_NAME = "8Bit-Mixtape-NEO.wiki"
 GITHUB_WIKI_REPO = "github.com/%s/%s.git" % (GITHUB_USER, WIKI_NAME)
 
-MKDOCS_FOLDER = "dist"
+MKDOCS_FOLDER = ""
 THIS_FILE_DIR = os.path.dirname(os.path.realpath(__file__))
 MKDOCS_DIR = os.path.join(THIS_FILE_DIR, MKDOCS_FOLDER)
 
