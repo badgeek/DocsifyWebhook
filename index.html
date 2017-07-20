@@ -21,18 +21,7 @@
     loadSidebar: '../sidebar.md',
     homepage: 'Home.md',
     plugins: [
-      function (hook, vm) {
-        hook.beforeEach(function (html) {
-          var url = 'https://github.com/8BitMixtape/8Bit-Mixtape-NEO/wiki/' + vm.route.file
-          var editHtml = '[📝 EDIT DOCUMENT](' + url + ')\n'
 
-          return editHtml
-            + html
-            + '\n----\n'
-            + 'Last modified 07/20 00:16 '
-            + editHtml
-        })
-      }
     ]
   }
 
