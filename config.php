@@ -5,4 +5,4 @@ define("DIR", "/home4/lpatch/deadmediafm/manticore.deadmediafm.org/DocsifyWebhoo
 define("BRANCH", "refs/heads/master");                                 // The branch route
 define("LOGFILE", "deploy.log");                                       // The name of the file you want to log to.
 define("GIT", "/usr/bin/git");                                         // The path to the git executable
-define("AFTER_PULL", "sh publish.sh");                                              // A command to execute after successfully pulling
+define("AFTER_PULL", "sh /home4/lpatch/deadmediafm/manticore.deadmediafm.org/DocsifyWebhook/publish.sh");                                              // A command to execute after successfully pulling
