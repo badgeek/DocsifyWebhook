@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
@@ -7,6 +8,7 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/buble.css">
 </head>
+
 <body>
   <div id="app"></div>
 </body>
@@ -17,9 +19,25 @@
     repo: '',
     basePath: '/NeoWiki/8Bit-Mixtape-NEO.wiki/',
     loadSidebar: '../sidebar.md',
-    homepage: 'Home.md'
+    homepage: 'Home.md',
+    plugins: [
+      function (hook, vm) {
+        hook.beforeEach(function (html) {
+          var url = 'https://github.com/8BitMixtape/8Bit-Mixtape-NEO/wiki/' + vm.route.file
+          var editHtml = '[📝 EDIT DOCUMENT](' + url + ')\n'
+
+          return editHtml
+            + html
+            + '\n----\n'
+            + 'Last modified 07/20 00:16 '
+            + editHtml
+        })
+      }
+    ]
   }
+
 </script>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
 </html>
