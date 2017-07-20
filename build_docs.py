@@ -56,6 +56,18 @@ chap_re = re.compile("^([0-9]*[_-] .*)+$")
 sub_re = re.compile("^([0-9].*_[0-9].*[_ -].*)+$")
 
 
+def atoi(text):
+	return int(text) if text.isdigit() else text
+
+def natural_keys(text):
+	'''
+	alist.sort(key=natural_keys) sorts in human order
+	http://nedbatchelder.com/blog/200712/human_sorting.html
+	(See Toothy's implementation in the comments)
+	'''
+	return [ atoi(c) for c in re.split('(\d+)', text) ]
+
+
 def pull_wiki_repo():
     """
     Pulls latest changes from the wiki repo.
@@ -102,7 +114,7 @@ def generate_sidebar():
     path_list = []
 
     list_dir = os.listdir(os.path.join(MKDOCS_DIR, WIKI_NAME))
-    list_dir.sort()
+    list_dir.sort(key=natural_keys)
 
     for file in list_dir:
       
