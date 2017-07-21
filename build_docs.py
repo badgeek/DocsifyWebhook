@@ -216,5 +216,5 @@ def build_docs():
 
 
 if __name__ == "__main__":
-    print save_sidebar_gitbook()
+    save_sidebar()
     # build_docs()
