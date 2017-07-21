@@ -4,3 +4,8 @@
 ./vscode/*
 ./node_modules/*/*
 ./node_modules/*
+/node_modules
+/.vscode/.ropeproject
+/8Bit-Mixtape-NEO.wiki
+/dist/*
+/dist/sidebar.md
