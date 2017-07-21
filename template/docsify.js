@@ -2865,7 +2865,7 @@ Compiler.prototype._initRenderer = function _initRenderer () {
 
     if (href.endsWith(".wav"))
         {
-            return '<audio controls="controls"><source src="' + href + '" preload="none" type="audio/x-wav"></audio>';
+            return '<audio controls="controls"><source src="' + href + '" preload="" type="audio/x-wav"></audio>';
         }else{
     if (title) {
       title = " title=\"" + title + "\"";
