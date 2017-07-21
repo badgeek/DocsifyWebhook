@@ -55,7 +55,7 @@ def generate_sidebar_docsify():
 def generate_sidebar_gitbook():
     path_list = []
 
-    list_dir = os.listdir(os.path.join(MKDOCS_DIR, WIKI_NAME))
+    list_dir = os.listdir(os.path.join(MKDOCS_DIR, WIKI_NAME, 'src'))
     list_dir.sort(key=natural_keys)
 
     for file in list_dir:

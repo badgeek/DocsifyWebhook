@@ -8,3 +8,6 @@ export DOCSIFY_BASEPATH="/NeoWiki/"
 export DOCSIFY_SIDEBAR="sidebar.md"
 export DOCSIFY_NAME="8BitMixtape-NEO"
 export OUTPUT_TYPE="docsify"
+
+export TEMPLATE_BASE_GIT="https://github.com/8BitMixtape/NeoDocs/tree/master/src"
+export TEMPLATE_DOMAIN="https://8bitmixtape.github.io"

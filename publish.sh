@@ -1,5 +1,17 @@
 . "config.sh"
 
+
+function generate_package_template() #platforms
+{
+local _platforms=${1}
+local _template=${2}
+eval "cat <<EOF
+$(<./${_template})
+EOF
+" 2> /dev/null
+}
+
+
 if [ -d "source_git/.git" ] #if directory exists
 then
     echo "DIRECTORY EXISTS"

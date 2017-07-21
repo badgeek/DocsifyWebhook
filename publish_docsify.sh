@@ -1,14 +1,3 @@
-function generate_package_template() #platforms
-{
-local _platforms=${1}
-local _template=${2}
-eval "cat <<EOF
-$(<./${_template})
-EOF
-" 2> /dev/null
-}
-
-
 #cd ${WEBHOOK_FILEPATH}
 rm -fr dist
 mkdir dist
