@@ -2,4 +2,5 @@
 ./8Bit-Mixtape-NEO.wiki
 ./dist/*
 ./vscode/*
-./node_modules
+./node_modules/*/*
+./node_modules/*
