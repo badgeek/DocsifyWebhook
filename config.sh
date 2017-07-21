@@ -1,6 +1,4 @@
 export GIT_SOURCE_REPO="git@github.com:8BitMixtape/8Bit-Mixtape-NEO.wiki.git"
-export GIT_SOURCE_FOLDER="source_git"
-export GIT_DEPLOY_DIR="dist"
 export GIT_DEPLOY_BRANCH="gh-pages"
 export GIT_DEPLOY_REPO="git@github.com:8BitMixtape/NeoWiki.git"
 export WEBHOOK_FILEPATH="/home4/lpatch/deadmediafm/manticore.deadmediafm.org/DocsifyWebhook/"
@@ -8,6 +6,5 @@ export DOCSIFY_BASEPATH="/NeoWiki/"
 export DOCSIFY_SIDEBAR="sidebar.md"
 export DOCSIFY_NAME="8BitMixtape-NEO"
 export OUTPUT_TYPE="docsify"
-
 export TEMPLATE_BASE_GIT="https://github.com/8BitMixtape/NeoDocs/tree/master/src"
 export TEMPLATE_DOMAIN="https://8bitmixtape.github.io"

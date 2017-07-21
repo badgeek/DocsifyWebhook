@@ -1,5 +1,8 @@
 . "config.sh"
 
+export GIT_SOURCE_FOLDER="source_git"
+export GIT_DEPLOY_DIR="dist"
+
 
 function generate_package_template() #platforms
 {
