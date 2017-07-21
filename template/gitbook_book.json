@@ -1,5 +1,4 @@
 {
-  "root": "src",
   "title": "$DOCSIFY_NAME",
   "language": "en",
   "plugins": ["-sharing", "edit-link", "youtube"],
