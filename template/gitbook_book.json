@@ -1,0 +1,21 @@
+{
+  "root": "src",
+  "title": "$DOCSIFY_NAME",
+  "language": "en",
+  "plugins": ["-sharing", "edit-link", "youtube"],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "$TEMPLATE_BASE_GIT",
+      "label": "EDIT"
+    }
+  },
+  "structure": {
+    "summary": "SUMMARY.md"
+  },
+  "variables": {
+    "domain": "$TEMPLATE_DOMAIN"
+  },
+  "styles": {
+        "website": "styles/website.css"
+    }
+}
