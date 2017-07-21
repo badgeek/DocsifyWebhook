@@ -1,4 +1,4 @@
-. "config.sh"
+. "./config.sh"
 
 export GIT_SOURCE_FOLDER="source_git"
 export GIT_DEPLOY_DIR="dist"
@@ -33,8 +33,8 @@ fi
 
 if [ "${OUTPUT_TYPE}" == "gitbook" ]; then
     echo "PUBLISH GITBOOK"
-    source publish_gitbook.sh     
+    source "./publish_gitbook.sh"     
 else
     echo "PUBLISH DOCSIFY"
-    source publish_docsify.sh     
+    source "./publish_docsify.sh"     
 fi
