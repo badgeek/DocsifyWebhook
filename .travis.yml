@@ -8,8 +8,9 @@ cache:
 install:
 - npm install
 script:
-- npm run docs:build
-- npm run docs:buildarchive
+- npm run docs:prepare
+- sh publish.sh docsify
+- sh publish.sh gitbook
 - node_modules/.bin/gh-pages-travis
 env:
   global:
