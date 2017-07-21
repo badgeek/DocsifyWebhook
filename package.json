@@ -1,0 +1,25 @@
+{
+  "name": "neodocs",
+  "version": "1.0.0",
+  "description": "> An awesome project.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badgeek/DocsifyWebhook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badgeek/DocsifyWebhook/issues"
+  },
+  "homepage": "https://github.com/badgeek/DocsifyWebhook#readme",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  },
+  "scripts": {
+    "docs:prepare": "gitbook install",
+    "docs:watch": "npm run docs:prepare && gitbook serve",
+    "docs:build": "npm run docs:prepare && rm -rf _book && gitbook build ./dist ./_book",
+    "docs:buildarchive": "zip -r book.zip _book/* ; mv book.zip _book/"
+  }  
+}
