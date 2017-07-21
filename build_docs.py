@@ -11,6 +11,7 @@ import re
 MKDOCS_FOLDER = ""
 THIS_FILE_DIR = os.path.dirname(os.path.realpath(__file__))
 MKDOCS_DIR = os.path.join(THIS_FILE_DIR, MKDOCS_FOLDER)
+WIKI_NAME = "dist"
 
 chap_re = re.compile("^([0-9]*[_-] .*)+$")
 sub_re = re.compile("^([0-9].*_[0-9].*[_ -].*)+$")
