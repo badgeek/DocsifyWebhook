@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>8BitMixtape-NEO Documentation</title>
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/buble.css">
 </head>
+
 <body>
   <div id="app"></div>
 </body>
 <script>
   window.$docsify = {
-    name: '8BitMixtape-NEO Devlog',
+    search: 'auto', // default
+    name: '8BitMixtape-NEO',
     repo: '',
-    basePath: '/DocsifyWebhook/8Bit-Mixtape-NEO.wiki/',
-    loadSidebar: '../sidebar.md'
+    basePath: '/NeoWiki/',
+    loadSidebar: 'sidebar.md',
+    homepage: 'Home.md',
+    plugins: [
+
+    ]
   }
+
 </script>
-<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="/docsify.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
 </html>

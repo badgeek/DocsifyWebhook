@@ -1,3 +1,5 @@
+# Code Snippets
+
 ![](images/instructions/ascii_header.jpg)
 
 See our growing collection of [dedicated code](https://github.com/8BitMixtape/8Bit-Mixtape-NEO/blob/master/Code/NEO_000_empty.ino/NEO_000_empty.ino.ino) to be used with the 8Bit Mixtape NEO.

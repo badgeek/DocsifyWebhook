@@ -1,6 +1,4 @@
-# 8Bit Mixtape NEO
-
-Welcome to the 8Bit Mixtape NEO wiki!
+# Welcome to the 8Bit Mixtape NEO wiki!
 
 ![](https://github.com/8BitMixtape/8Bit-Mixtape-NEO/raw/master/boards/NEO_overview_boards.jpg)
 
@@ -12,17 +10,11 @@ See more [on](http://hackteria.org/wiki/G%C3%A4r_L%C3%A4mpli#diy-CAD_.7C_A_Creat
 
 # See all details in the Chapters of this wiki
 
-* [1 Overview](https://github.com/8BitMixtape/8Bit-Mixtape-NEO/wiki/1-Overview)
-
-* [2 Boards](https://github.com/8BitMixtape/8Bit-Mixtape-NEO/wiki/2-Boards)
-
-* [3 Dev Zone](https://github.com/8BitMixtape/8Bit-Mixtape-NEO/wiki/3-Developer-Zone)
-
-* [4 Make Your Own Board](https://github.com/8BitMixtape/8Bit-Mixtape-NEO/wiki/4-MYOB---Make-Your-Own-Board)
-
-* [5 History of the Coconut](https://github.com/8BitMixtape/8Bit-Mixtape-NEO/wiki/5-History-of-the-Coconut)
-
-* [X Acknowledgements](https://github.com/8BitMixtape/8Bit-Mixtape-NEO/wiki/X-Acknowledgements)
+* [Getting-Started](1-Getting-Started)
+* [Boards](2-Boards)
+* [Developer Zone](4-Developer-Zone)
+* [History of the Coconut](5-History-of-the-Coconut)
+* [Acknowledgements](X-Acknowledgements)
 
 # What is it?
 

@@ -26,7 +26,6 @@ Pfff... with this process. kinda difficult to change the designs. but the top te
 ## Comments and ideas
 
 * fix the pads for the 3535 Neo-pixels
-* 
 
 ## Old Notes and Ideas
 
@@ -50,7 +49,7 @@ Audio extras:
 * Mosfet \(which one?\) amplification stage for driving speakers
 * sot23 or 223 package? \(dusjagr goes for 223\)
 * extra Audio Filters - Wolfgang style
-* 
+
 Power extras:
 
 * USB micro pads \(only power lines\)
@@ -101,7 +100,7 @@ To think about:
 * SMD or Throug-Hole
 * should the plug be on the back or front -&gt; stability of board when on the table.
 * colors?
-* 
+
 ### Overview
 
 ![](images/parts/jack_connectivity.jpg)

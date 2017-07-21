@@ -1,3 +1,5 @@
+# 3D Printed Case
+
 ![](images/3d-files/Tape_3d_FullCase.jpg)
 
 See the [files in the repository](https://github.com/8BitMixtape/8Bit-Mixtape-NEO/tree/master/boards/3d-files), made with openScad and some vector files by inkscape as .dxf.
