@@ -1,3 +1,7 @@
+pushd `dirname $0` > /dev/null
+SCRIPTPATH=`pwd`
+popd > /dev/null
+
 . "./config.sh"
 
 export GIT_SOURCE_FOLDER="source_git"
