@@ -44,3 +44,5 @@ else
     echo "PUBLISH DOCSIFY"
     source "./publish_docsify.sh"     
 fi
+
+./deploy.sh
